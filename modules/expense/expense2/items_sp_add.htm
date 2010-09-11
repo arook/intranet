@@ -1,0 +1,196 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<title>費用申請作業系統</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_goToURL() { //v3.0
+  var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
+  for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");
+}
+//-->
+</script>
+</head>
+
+<body>
+<a href="index.htm"><img src="images/title.gif" width="400" height="35" border="0"></a> <br>
+<table width="700" border="0" cellspacing="0" cellpadding="0" >
+  <tr> 
+    <td height="50" colspan="2"> <p><FONT 
+                        size=3>您好，歡迎進入費用/設備申請<strong>管理</strong>作業系統。</FONT></p></td>
+  </tr>
+  <tr> 
+    <td height="25" colspan="2"><table width="350" border="0" cellpadding="2" cellspacing="1" bgcolor="#FFFFFF">
+        <tr bgcolor="#666666"> 
+          <td width="100" align="center"> <a href="approve_index.htm"><font color="#FFFFFF">審核</font></a></td>
+          <td width="100" align="center"> <a href="items.htm"><font color="#FFFFFF">項目維護</font></a></td>
+          <td width="100" align="center"> <a href="access.htm"> <font color="#FFFFFF">權限設置</font></a></td>
+		  <td width="100" align="center"> <a href="search.htm"> <font color="#FFFFFF">查詢</font></a></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td height="15" colspan="2" align="right"><hr> </td>
+  </tr>
+  <tr> 
+    <td width="509" height="40" align="left" class="fg1"><font size="3"><strong>項目維護</strong></font></td>
+    <td width="191" align="left" class="fg1">
+	<form name="form2">
+        <select name="menu1" onChange="MM_jumpMenu('parent',this,0)">
+          <option selected>請選擇</option>
+          <option value="items.htm">申請費用科目管理</option>
+		<option value="items_dep.htm">部門別管理 </option> 
+        <option value="currency.htm">幣別管理 </option>  
+        <option value="items_supplier.htm">供應商管理</option>
+        </select>
+      </form>
+     </td>
+  </tr>
+  <tr> 
+    <td height="4" colspan="2" align="left" class="fg1">&nbsp; </td>
+  </tr>
+  <tr align="left"> 
+    <td height="8" colspan="2"> <table width="600" border="0" cellspacing="0" cellpadding="2">
+        <tr> 
+          <td width="100" height="35"><strong>廠商代號 </strong></td>
+          <td width="200" height="35"> <input name="textfield" type="text" size="8"> 
+          </td>
+          <td r>&nbsp;</td>
+          <td width="80" height="35"><strong>廠商全名 </strong></td>
+          <td width="200" height="35"> <input name="textfield2" type="text" size="18"> 
+          </td>
+        </tr>
+        <tr> 
+          <td height="35"><strong>廠商簡稱</strong></td>
+          <td height="35"> <input name="textfield6" type="text" size="8"> <br></td>
+          <td r>&nbsp;</td>
+          <td height="35"><strong>統一編號<br>
+            </strong></td>
+          <td height="35"><input name="textfield7" type="text" size="15"> <br></td>
+        </tr>
+        <tr> 
+          <td height="35"><strong>廠商類型</strong></td>
+          <td height="35"> <select name="select">
+              <option>請選擇</option>
+              <option>工廠</option>
+              <option>快遞</option>
+              <option>貨運</option>
+              <option>人力資源</option>
+              <option>報關行</option>
+              <option>保險</option>
+              <option>空運報關行</option>
+            </select> <br></td>
+          <td r>&nbsp;</td>
+          <td height="35"><strong>負責人<br>
+            </strong></td>
+          <td height="35"> <input name="textfield3" type="text" size="8"> <br></td>
+        </tr>
+        <tr> 
+          <td height="35"><strong>聯絡人</strong></td>
+          <td height="35"><input name="textfield4" type="text" size="8"></td>
+          <td r>&nbsp;</td>
+          <td height="35"><strong>負責採購</strong></td>
+          <td height="35"> <input name="textfield5" type="text" size="8"></td>
+        </tr>
+        <tr> 
+          <td height="35"><strong>電話號碼一</strong></td>
+          <td height="35"><input name="textfield8" type="text" size="15"></td>
+          <td r>&nbsp;</td>
+          <td height="35"><strong>電話號碼二</strong></td>
+          <td height="35"><input name="textfield83" type="text" size="15"></td>
+        </tr>
+        <tr> 
+          <td height="35"><strong>傳真號碼</strong></td>
+          <td height="35"><input name="textfield82" type="text" size="15"></td>
+          <td r>&nbsp;</td>
+          <td height="35"><strong>E-MAIL </strong></td>
+          <td height="35"><input name="textfield22" type="text" size="18"></td>
+        </tr>
+        <tr> 
+          <td height="35"><strong>廠商地址</strong></td>
+          <td height="35" colspan="4"><input name="textfield23" type="text" size="60"></td>
+        </tr>
+        <tr> 
+          <td height="35"><strong>交易區域</strong></td>
+          <td height="35"><input name="textfield85" type="text" size="15"></td>
+          <td r>&nbsp;</td>
+          <td height="35"><strong>交易幣別</strong></td>
+          <td height="35"><input name="textfield86" type="text" size="15"></td>
+        </tr>
+        <tr> 
+          <td height="35"><strong>開始交易日</strong></td>
+          <td height="35"><input name="textfield87" type="text" size="15"></td>
+          <td r>&nbsp;</td>
+          <td height="35"><strong>最近交易日</strong></td>
+          <td height="35"><input name="textfield88" type="text" size="15"></td>
+        </tr>
+        <tr> 
+          <td height="35"><strong>價格條件</strong></td>
+          <td height="35"><input name="textfield89" type="text" size="15"></td>
+          <td r>&nbsp;</td>
+          <td height="35"><strong>付款條件</strong></td>
+          <td height="35"><input name="textfield810" type="text" size="15"></td>
+        </tr>
+        <tr> 
+          <td height="35"><strong>營業稅別</strong></td>
+          <td height="35"><input name="textfield811" type="text" size="15"></td>
+          <td r>&nbsp;</td>
+          <td height="35"><strong>發票聯數</strong></td>
+          <td height="35"><input name="textfield812" type="text" size="15"></td>
+        </tr>
+        <tr> 
+          <td height="35"><strong>採購單交付方式</strong></td>
+          <td height="35"><input name="textfield814" type="text" size="15"></td>
+          <td r>&nbsp;</td>
+          <td height="35"><strong>結帳方式</strong></td>
+          <td height="35"><input name="textfield813" type="text" size="15"></td>
+        </tr>
+        <tr> 
+          <td height="35"> <p><strong>結帳日期<br>
+              </strong><strong>(進貨後?月)</strong></p></td>
+          <td height="35"><input name="textfield815" type="text" size="15"></td>
+          <td r>&nbsp;</td>
+          <td height="35"><strong>結帳日期<br>
+            (進貨逢?月)</strong></td>
+          <td height="35"><input name="textfield816" type="text" size="15"></td>
+        </tr>
+        <tr> 
+          <td height="35"><strong>付款日期<br>
+            (結帳後?月)</strong></td>
+          <td height="35"><input name="textfield817" type="text" size="15"></td>
+          <td r>&nbsp;</td>
+          <td height="35"><strong>付款日期<br>
+            (結帳逢?月)</strong></td>
+          <td height="35"><input name="textfield818" type="text" size="15"></td>
+        </tr>
+        <tr> 
+          <td height="35"><strong>票期日期<br>
+            (付款後?月)</strong></td>
+          <td height="35"><input name="textfield819" type="text" size="15"></td>
+          <td r>&nbsp;</td>
+          <td height="35"><strong>票期日期<br>
+            (付款逢?月)</strong></td>
+          <td height="35"><input name="textfield820" type="text" size="15"></td>
+        </tr>
+      </table>
+      <br>
+      <table width="700" border="0" cellspacing="0" cellpadding="0">
+        <tr align="center"> 
+          <td height="35">&nbsp; </td>
+          <td width="40">&nbsp; </td>
+          <td width="40" height="35">&nbsp; </td>
+          <td width="40" height="35"> 
+            <input name="Submit" type="submit" onClick="MM_goToURL('parent','items_sp_added.htm');return document.MM_returnValue" value="確定"></td>
+        </tr>
+      </table>
+      </td>
+  </tr>
+</table>
+</body>
+</html>

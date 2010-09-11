@@ -1,0 +1,106 @@
+IMG {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+.ahem {
+	
+}
+HTML {
+	BACKGROUND-COLOR: #eef0f2
+}
+BODY {
+	SCROLLBAR-FACE-COLOR: #dee3e7; FONT-SIZE: x-small; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; SCROLLBAR-SHADOW-COLOR: #dee3e7; COLOR: #000000; SCROLLBAR-3DLIGHT-COLOR: #d1d7dc; SCROLLBAR-ARROW-COLOR: #905000; SCROLLBAR-TRACK-COLOR: #efefef; FONT-FAMILY: Verdana, Tahoma, Helvetica, sans-serif; SCROLLBAR-DARKSHADOW-COLOR: #98aab1; BACKGROUND-COLOR: #eef0f2
+}
+A {
+	FONT-WEIGHT: bold; FONT-SIZE: x-small; COLOR: #005e8a; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+INPUT {
+	BORDER-TOP-WIDTH: 1px; FONT-WEIGHT: normal; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: x-small; BORDER-LEFT-COLOR: #000000; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #000000; COLOR: #000000; BORDER-TOP-COLOR: #000000; TEXT-INDENT: 2px; BACKGROUND-COLOR: transparent; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #000000
+}
+SELECT {
+	FONT-WEIGHT: bold; FONT-SIZE: x-small; BACKGROUND-COLOR: #eef0f2
+}
+TD {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: x-small; BORDER-BOTTOM-WIDTH: 1px; COLOR: #000000; BORDER-RIGHT-WIDTH: 1px
+}
+A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: x-small; COLOR: #3a3ab1; FONT-STYLE: normal; TEXT-DECORATION: underline overline
+}
+TEXTAREA {
+	BORDER-TOP-WIDTH: 1px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: x-small; BORDER-LEFT-COLOR: #000000; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #000000; BORDER-TOP-COLOR: #000000; TEXT-INDENT: 2px; BACKGROUND-COLOR: transparent; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #000000
+}
+.bg1 {
+	BACKGROUND-COLOR: #e8edf0
+}
+.bg2 {
+	BACKGROUND-COLOR: #cfdae1
+}
+.bg3 {
+	BACKGROUND-COLOR: #d8dfe4
+}
+.bg4 {
+	BACKGROUND-COLOR: #e8ecf0
+}
+.bg5 {
+	BACKGROUND-COLOR: #eef0f2
+}
+.bg6 {
+	BACKGROUND-COLOR: #056b9e
+}
+.fg1 {
+	COLOR: #00639c
+}
+.fg2 {
+	COLOR: #00639c
+}
+.fg3 {
+	COLOR: #ffffff
+}
+.artblock {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; MARGIN: 5px; PADDING-TOP: 5px; BACKGROUND-COLOR: #eef0f2; TEXT-ALIGN: left
+}
+.title {
+	FONT-WEIGHT: bold; BACKGROUND-COLOR: #eef0f2; TEXT-ALIGN: left
+}
+.postedby {
+	FONT-SIZE: 70%; BACKGROUND-COLOR: #eef0f2; TEXT-ALIGN: left
+}
+.bottomlink {
+	FONT-SIZE: 70%; WIDTH: 100%; TEXT-ALIGN: right
+}
+.news {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; MIN-HEIGHT: 90px; PADDING-BOTTOM: 5px; MARGIN: 5px; WIDTH: 100%; PADDING-TOP: 5px; BACKGROUND-COLOR: #e9ebef; TEXT-ALIGN: left
+}
+.content {
+	PADDING-RIGHT: 4pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 4pt; PADDING-TOP: 4pt
+}
+.dot {
+	BACKGROUND: url(../images/dot.gif) repeat-y
+}
+.dotv {
+	BACKGROUND: url(../images/dotv.gif) repeat-x
+}
+.rule {
+	BACKGROUND: url(../images/rule.gif) repeat-x
+}
+HR {
+	COLOR: #c7d0d7
+}
+.gradienth {
+	BACKGROUND: url(../images/gradienth.jpg) #c7d0d7 no-repeat
+}
+.gradientv {
+	BACKGROUND: url(../images/gradientv.jpg) #c7d0d7 no-repeat
+}
+hr {
+	border-top: 1px dotted #666666;
+	border-right: 0px none;
+	border-bottom: 0px none;
+	border-left: 0px none;
+	height: 1px;
+	padding-top: 1px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+
+
+}

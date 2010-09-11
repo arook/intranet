@@ -1,0 +1,20 @@
+<table cellpadding="2" cellspacing="1" style="margon-left: 10pt; margin-top: 10pt" bgcolor="FFFFFF">
+  <tr style="cursor: hand; color: FFFFFF"  bgcolor="666666"> 
+    <td width=125 onClick="location='index.php?mode=1&user=<? echo $user ?>'"><font color="FFFFFF">申請費用選項維護</font></td>
+    <td width=125 onClick="location='index.php?mode=2&user=<? echo $user ?>'"><font color="FFFFFF">費用細目選項維護</font></td>
+    <td width=125 onClick="location='index.php?mode=3&user=<? echo $user ?>'"><font color="FFFFFF">供應廠商選項維護</font></td>
+    <td width=125 onClick="location='index.php?mode=4&user=<? echo $user ?>'"><font color="FFFFFF">權限設置名單維護</font></td>
+    <td width=125 onClick="location='index.php?mode=5&user=<? echo $user ?>'"><font color="FFFFFF">申請費用審核維護</font></td>
+    <td width=125 onClick="location='../'"><font color="FFFFFF">登出管理程式</font></td>
+  </tr>
+</table>	
+<!--- <table cellpadding="2" cellspacing="1" style="margon-left: 10pt; margin-top: 10pt" bgcolor="FFFFFF">
+  <tr style="cursor: hand; color: FFFFFF"  bgcolor="666666"> 
+    <td width=125 onClick="location='apply_fee.php?user=<? echo $user ?>'"><font color="FFFFFF">申請費用選項維護</font></td>
+    <td width=125 onClick="location='apply_fee_item.php?user=<? echo $user ?>'"><font color="FFFFFF">費用細目選項維護</font></td>
+    <td width=125 onClick="location='apply_fee_factory.php?user=<? echo $user ?>'"><font color="FFFFFF">供應廠商選項維護</font></td>
+    <td width=125 onClick="location='apply_fee_admin.php?user=<? echo $user ?>'"><font color="FFFFFF">權限設置名單維護</font></td>
+    <td width=125 onClick="location='apply_fee_approve.php?user=<? echo $user ?>'"><font color="FFFFFF">申請費用審核維護</font></td>
+    <td width=125 onClick="location='../'"><font color="FFFFFF">登出管理程式</font></td>
+  </tr>
+</table> --->

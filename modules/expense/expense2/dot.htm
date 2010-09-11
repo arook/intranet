@@ -1,0 +1,170 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<title>費用申請作業系統</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_goToURL() { //v3.0
+  var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
+  for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");
+}
+//-->
+</script>
+</head>
+
+<body>
+<a href="index.htm"><img src="images/title.gif" width="400" height="35" border="0"></a> <br>
+<table width="700" border="0" cellspacing="0" cellpadding="0" >
+  <tr> 
+    <td height="50" colspan="2"> <p><FONT 
+                        size=3>您好，歡迎進入費用/設備申請<strong>管理</strong>作業系統。</FONT></p></td>
+  </tr>
+  <tr> 
+    <td height="25" colspan="2"><table width="350" border="0" cellpadding="2" cellspacing="1" bgcolor="#FFFFFF">
+        <tr bgcolor="#666666"> 
+          <td width="100" align="center"> <a href="approve_index.htm"><font color="#FFFFFF">審核</font></a></td>
+          <td width="100" align="center"> <a href="items.htm"><font color="#FFFFFF">項目維護</font></a></td>
+          <td width="100" align="center"> <a href="access.htm"> <font color="#FFFFFF">權限設置</font></a></td>
+		  <td width="100" align="center"> <a href="search.htm"> <font color="#FFFFFF">查詢</font></a></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td height="15" colspan="2" align="right"><hr> </td>
+  </tr>
+  <tr> 
+    <td width="509" height="40" align="left" class="fg1"><font size="3"><strong>項目維護</strong></font>(細項-申請費用)</td>
+    <td width="191" align="left" class="fg1"><select name="menu1" onChange="MM_jumpMenu('parent',this,0)">
+        <option selected>請選擇</option>
+        <option value="items.htm">申請費用科目管理</option>
+		<option value="items_dep.htm">部門別管理 </option> 
+        <option value="currency.htm">幣別管理 </option>  
+        <option value="items_supplier.htm">供應商管理</option>
+      </select> </td>
+  </tr>
+
+  <tr align="left"> 
+    <td height="8" colspan="2"> <table width="550" border=0 cellpadding=2 cellspacing=0 x:str >
+        <tr height=22> 
+          <td width="28" height=0 >序號<br></td>
+          <td width="50" align="center" >&nbsp;</td>
+          <td width="107" >申請細目編號</td>
+          <td width="349" >申請細目</td>
+        </tr>
+        <tr height=22 style='height:16.5pt'> 
+          <td height=22 >1</td>
+          <td align="center" > 
+            <input type="checkbox" name="checkbox" value="checkbox"></td>
+          <td class=xl2328786 style='border-top:none;border-left:none' x:num>204</td>
+          <td >水電費</td>
+        </tr>
+        <tr height=22 style='height:16.5pt'> 
+          <td height=22 >2</td>
+          <td align="center" > 
+            <input type="checkbox" name="checkbox2" value="checkbox"></td>
+          <td class=xl2328786 style='border-top:none;border-left:none' x:num>205</td>
+          <td >運費</td>
+        </tr>
+        <tr height=22 style='height:16.5pt'> 
+          <td height=22 >3</td>
+          <td align="center" > 
+            <input type="checkbox" name="checkbox3" value="checkbox"></td>
+          <td class=xl2328786 style='border-top:none;border-left:none' x:num>206</td>
+          <td >差旅費</td>
+        </tr>
+        <tr height=22 style='height:16.5pt'> 
+          <td height=22 >4</td>
+          <td align="center" > 
+            <input type="checkbox" name="checkbox4" value="checkbox"></td>
+          <td class=xl2328786 style='border-top:none;border-left:none' x:num>207</td>
+          <td >宣傳贈品</td>
+        </tr>
+        <tr height=22 style='height:16.5pt'> 
+          <td height=22 >5</td>
+          <td align="center" > 
+            <input type="checkbox" name="checkbox5" value="checkbox"></td>
+          <td class=xl2328786 style='border-top:none;border-left:none' x:str="'001">001</td>
+          <td >報關費</td>
+        </tr>
+        <tr height=22 style='height:16.5pt'> 
+          <td height=22 >6</td>
+          <td align="center" > 
+            <input type="checkbox" name="checkbox6" value="checkbox"></td>
+          <td class=xl2328786 style='border-top:none;border-left:none' x:str="'002">002</td>
+          <td >運費</td>
+        </tr>
+        <tr height=22 style='height:16.5pt'> 
+          <td height=22 >7</td>
+          <td align="center" > 
+            <input type="checkbox" name="checkbox7" value="checkbox"></td>
+          <td class=xl2328786 style='border-top:none;border-left:none' x:str="'006">006</td>
+          <td >關稅</td>
+        </tr>
+        <tr height=22 style='height:16.5pt'> 
+          <td height=22 >8</td>
+          <td align="center" > 
+            <input type="checkbox" name="checkbox8" value="checkbox"></td>
+          <td class=xl2328786 style='border-top:none;border-left:none' x:str="'007">007</td>
+          <td >保險費</td>
+        </tr>
+        <tr height=22 style='height:16.5pt'> 
+          <td height=22 >9</td>
+          <td align="center" > 
+            <input type="checkbox" name="checkbox9" value="checkbox"></td>
+          <td class=xl2328786 style='border-top:none;border-left:none' x:str="'001">001</td>
+          <td >其他費用</td>
+        </tr>
+        <tr height=22 style='height:16.5pt'> 
+          <td height=22 >10</td>
+          <td align="center" > 
+            <input type="checkbox" name="checkbox10" value="checkbox"></td>
+          <td class=xl2328786 style='border-top:none;border-left:none' x:str="'102">102</td>
+          <td >其他性質</td>
+        </tr>
+        <tr height=22 style='height:16.5pt'> 
+          <td height=22 >11</td>
+          <td align="center" > 
+            <input type="checkbox" name="checkbox11" value="checkbox"></td>
+          <td class=xl2328786 style='border-top:none;border-left:none' x:num>101</td>
+          <td >信用狀</td>
+        </tr>
+        <tr height=22 style='height:16.5pt'> 
+          <td height=22 >12</td>
+          <td align="center" > 
+            <input type="checkbox" name="checkbox12" value="checkbox"></td>
+          <td >000</td>
+          <td >雜項購置</td>
+        </tr>
+        <tr height=22 style='height:16.5pt'> 
+          <td height=22 >13</td>
+          <td align="center" > 
+            <input type="checkbox" name="checkbox13" value="checkbox"></td>
+          <td >000</td>
+          <td >手續費</td>
+        </tr>
+        <tr height=22 style='height:16.5pt'> 
+          <td height=22 >14</td>
+          <td align="center" > 
+            <input type="checkbox" name="checkbox14" value="checkbox"></td>
+          <td >000</td>
+          <td >清潔/管理費</td>
+        </tr>
+      </table>
+      <table width="550" border="0" cellspacing="0" cellpadding="0">
+        <tr align="center"> 
+          <td height="35"><hr align="left" width="95%"> </td>
+          <td width="40"> <input name="Submit2" type="submit" onClick="MM_goToURL('parent','dot_add.htm');return document.MM_returnValue" value="新增"></td>
+          <td width="40" height="35"> <input name="Submit3" type="submit" onClick="MM_goToURL('parent','dot_modify.htm');return document.MM_returnValue" value="修改"></td>
+          <td width="40" height="35"> <input type="submit" name="Submit" value="刪除"></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+</body>
+</html>

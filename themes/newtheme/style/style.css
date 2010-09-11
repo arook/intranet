@@ -1,0 +1,118 @@
+img{border:0}
+.ahem{}
+html {background-color:#EEF0F2;}
+body {
+    background-color: #EEF0F2;
+	font-family: Verdana, Tahoma, Helvetica, sans-serif; 
+	color: #000000;
+	font-size: x-small;
+		scrollbar-face-color: #DEE3E7; scrollbar-highlight-color: #FFFFFF;
+		scrollbar-shadow-color: #DEE3E7; scrollbar-3dlight-color: #D1D7DC;
+		scrollbar-arrow-color:  #905000; scrollbar-track-color: #EFEFEF;
+		scrollbar-darkshadow-color: #98AAB1;
+}
+a { 
+    font-size: x-small;
+	text-decoration: none;
+	color: #005E8A;
+	font-style: normal;
+	font-weight: bold;
+}
+input { 
+    background-color : transparent;
+	color: #000000;
+	font-size: x-small;
+	font-weight: normal;
+	border-color: #000000;
+	border-width: 1px;
+	text-indent: 2px;
+}
+select {
+    background-color:#EEF0F2;
+	font-size: x-small;
+	font-weight: bold;	
+} 
+td {  
+    color: #000000;
+	font-size: x-small;
+	border-width : 1px;
+}
+a:hover { 
+    text-decoration: 'underline overline';
+	font-size: x-small;
+	font-weight: bold;
+	color: #3A3AB1;
+	font-style: normal
+}
+textarea {
+    font-size: x-small;
+	background-color: transparent;
+	font-weight: bold;
+	border-color: #000000;
+	border-width: 1px;
+	text-indent: 2px;
+}
+.bg1{background-color:#E8EDF0;}
+.bg2{background-color:#CFDAE1;}
+.bg3{background-color:#D8DFE4;}
+.bg4{background-color:#E8ECF0;}
+.bg5{background-color:#EEF0F2;}
+.bg6{background-color:#056B9E;}
+.fg1{color:#00639C}
+.fg2{color:#00639C}
+.fg3{color:#ffffff}
+.artblock {
+   text-align: left;
+    background-color: #EEF0F2;
+		margin: 5px;
+	padding: 5px;
+}
+.title {
+   text-align: left;
+   font-weight: bold;
+    background-color: #EEF0F2;
+}
+.postedby {
+   text-align: left;
+   font-size: 70%;
+    background-color: #EEF0F2;
+}
+.bottomlink {
+   width: 100%;
+   text-align: right;
+   font-size: 70%;
+}
+.news {
+    width: 100%;
+    text-align: left;
+	padding: 5px;
+	margin: 5px;
+	min-height: 90px;
+   background-color: #E9EBEF;
+}
+.content{padding:4pt}
+.dot{background:url(../images/dot.gif) repeat-y}
+.dotv{background:url(../images/dotv.gif) repeat-x}
+.rule{background:url(../images/rule.gif) repeat-x}
+hr {
+	border-top: 1px dotted #666666;
+	border-right: 0px none;
+	border-bottom: 0px none;
+	border-left: 0px none;
+	height: 1px;
+	padding-top: 1px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+
+
+}
+.gradienth{background:#C7D0D7 url(../images/gradienth.jpg) no-repeat}
+.gradientv{background:#C7D0D7 url(../images/gradientv.jpg) no-repeat}
+.12 {
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+
+}
